@@ -1,0 +1,26 @@
+.green {
+	color: green;
+}
+
+.jumbotron {
+	background-image: url("https://cdn.shutterstock.com/shutterstock/videos/6576242/thumb/10.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode:normal;
+}
+
+.jumbotron > * {
+	text-align: center;
+	align-items: center
+}
+
+#input {
+	margin-bottom: 15px;
+}
+
+h1 {
+	text-shadow: 2px 2px black;
+}
+
+.jumbotron { min-height: 600px; }

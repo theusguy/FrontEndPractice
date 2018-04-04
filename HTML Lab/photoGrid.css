@@ -1,0 +1,27 @@
+img {
+	float: left;
+	width: 30%;
+	height: 30%;
+	margin: 1.666666666666666666%;
+}
+p {
+	font-family: Raleway;
+	margin-left: 1.6%;
+	font-weight: 800;
+	text-transform: uppercase;
+	width: 30%;
+	padding-bottom:20px;
+	border-bottom: 2px solid #f1f1f1;
+}
+/*.top {
+	margin-top: 3.3%;
+}
+.left {
+	margin-left: 3.3%;
+}
+.right {
+	margin-right: 3.3%;
+}
+.bottom {
+	margin-bottom: 3.3%;
+}*/

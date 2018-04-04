@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Circles</title>
+	<script type="text/javascript" src="assets/js/lib/paper-full.js"></script>
+
+	<script type="text/paperscript" canvas="myCanvas">
+	<!-- Creating a new Path -->
+	var myPath = new Path();
+	<!-- Adding first point to path__ Index: 1 -->
+	myPath.add(new Point(50,50));
+	<!-- myPath.add(new Point(200,120)); -->
+	<!-- Adding second point to path __ Index: 2 -->
+	myPath.add(new Point(100,100));
+	<!-- Line stroking thorugh dots is colored white -->
+	myPath.strokeColor = 'blue';
+	<!-- Inserting a point after the first index -->
+	myPath.insert(0, new Point(200,100));
+	myPath.closed = true;
+	myPath.removeSegment(2);
+	myPath.smooth(); 
+	myPath.remove();
+
+	var cir = new Path.Circle(new Point(50,50), 40);
+	cir.fillColor = 'blue';
+
+	
+	var path = new Path.Circle(cir);
+	path.fillColor = 'red';
+	path.selected =true;
+	cir.closed = true;
+
+
+</script>
+</script>
+</head>
+<body>
+
+	<canvas id="myCanvas" resize="true"></canvas>
+</body>
+</html>

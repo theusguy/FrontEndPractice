@@ -1,0 +1,27 @@
+body {
+	width: 45%;
+	margin: auto;
+	border: 22px solid #bdc3c7;
+	margin-top: 10px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+div {
+	margin: 15px;
+	border-bottom: 2px solid #bdc3c7;
+	font-family: Source Sans Pro;
+}
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.subtext {
+	border-left: 6px solid #bdc3c7;
+	padding-left: 4px;
+}
+h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
